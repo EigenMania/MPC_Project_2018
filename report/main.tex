@@ -1,0 +1,112 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{soul}
+\usepackage{xcolor}
+\usepackage[margin=0.75in]{geometry}
+
+\begin{document}
+
+%% Title Page
+\thispagestyle{empty}
+
+\begin{center}
+    \LARGE \textbf{2018 MPC Programming Exercise} \\
+    \Large \textbf{Quadrotor Control}
+    \normalsize
+\end{center}
+
+\vfill
+
+\begin{center}
+    \includegraphics[width=0.9\textwidth]{Figures/quadcopter_comic.png}
+\end{center}
+
+\vfill
+
+\begin{center}
+    \begin{tabular}{l  l  l }
+        \textbf{Name} & \textbf{Legi \#} & \textbf{Email} \\
+        Adrian Esser & 17-937-954 & aesser@student.ethz.ch \\
+        Thomas Lew & \hl{...} & \hl{...} \\
+    \end{tabular}
+\end{center}
+
+\clearpage
+\newpage
+
+\tableofcontents
+
+\clearpage
+\newpage
+
+\section{Q1 - Interpretation of Linearized System}
+
+\begin{center}
+    \textit{Interpretation of the structure of matrices $\mathrm{A}^c$ and $\mathrm{B}^c$.
+    Explain in particular the nonzero rows 4 and 5 of $\mathrm{A}^c$ and the nonzero rows of
+    $\mathrm{B}^c$ in connection with the nonlinear dynamics described above.} \textbf{2.5\%}
+\end{center}
+    
+
+\section{Q2 - Choice of Tuning Parameters}
+
+\begin{center}
+    \textit{Choice of tuning parameters ($\mathrm{Q}, \mathrm{R}, \mathrm{P},
+    \mathrm{A}_{\mathcal{X}_{f}}, \mathrm{b}_{\mathcal{X}_{f}}$) and motivation for them.} \textbf{5\%}
+\end{center}
+ 
+\section{Q3 - Initial Reponse Plots}
+
+\begin{center}
+    \textit{Plots of the response starting from the given initial condition $x^1(0)$.} \textbf{10\%}
+\end{center}
+ 
+\section{Q4 - Steady State Reference Tracking}
+
+\begin{center}
+    \textit{Define the steady state ($x_r, u_r$) as a function of n arbitrary reference $r^1$.} \textbf{5\%}
+\end{center}
+ 
+\section{Q5 - Reference Signal Plots}
+
+\begin{center}
+    \textit{Plots of the response or the constant reference signal $r^1 = \left[1.0000 \ 0.1745 \
+    -0.1745 \ 1.7453 \right]^\mathrm{T}$}. \textbf{10\%}
+\end{center}
+ 
+\section{Q6 - Varying Reference Signal Plots}
+
+\begin{center}
+    \textit{Plots of the response for the slowly varying reference signal $r^1(k) = \left[1 \
+    0.1745 \cdot \mathrm{sin}(T_s k) \ -0.1745 \cdot \mathrm{sin}(T_s k) \ \pi/2 \right]^\mathrm{T}$.} \textbf{2.5\%}
+\end{center}
+
+\section{Q7 - Nonlinear Model Reference Tracking}
+
+\begin{center}
+    \textit{Plots of a reference tracking response of the nonlinear model.} \textbf{5\%}
+\end{center}
+ 
+\section{Q8 - Disturbance Observer Design}
+
+\begin{center}
+    \textit{Provide the matric L and justify your choice.} \textbf{5\%}
+\end{center}
+ 
+\section{Q9 - Reference Signal Plots}
+
+\begin{center}
+    \textit{Plots of the response or the constant reference signal $r^1 = \left[0.8 \ 0.12 \
+    -0.12 \ \pi/2 \right]^\mathrm{T}$}. \textbf{10\%}
+\end{center}
+ 
+\section{Q10 - Varying Reference Signal Plots}
+
+\begin{center}
+    \textit{Plots of the response for the slowly varying reference signal $r^1(k) = \left[0.8 \
+    0.12 \cdot \mathrm{sin}(T_s k) \ -0.12 \cdot \mathrm{sin}(T_s k) \ \pi/2 \right]^\mathrm{T}$.} \textbf{2.5\%}
+\end{center}
+
+
+\end{document}

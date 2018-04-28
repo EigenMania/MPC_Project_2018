@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Q1 - Interpretation of Linearized System}{3}
+\contentsline {section}{\numberline {2}Q2 - Choice of Tuning Parameters}{3}
+\contentsline {section}{\numberline {3}Q3 - Initial Reponse Plots}{3}
+\contentsline {section}{\numberline {4}Q4 - Steady State Reference Tracking}{3}
+\contentsline {section}{\numberline {5}Q5 - Reference Signal Plots}{3}
+\contentsline {section}{\numberline {6}Q6 - Varying Reference Signal Plots}{3}
+\contentsline {section}{\numberline {7}Q7 - Nonlinear Model Reference Tracking}{3}
+\contentsline {section}{\numberline {8}Q8 - Disturbance Observer Design}{3}
+\contentsline {section}{\numberline {9}Q9 - Reference Signal Plots}{3}
+\contentsline {section}{\numberline {10}Q10 - Varying Reference Signal Plots}{4}
